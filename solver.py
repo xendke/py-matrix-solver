@@ -71,6 +71,7 @@ def solve(matrix):
     solve_matrix(matrix)
     simplify_matrix(matrix)
     print_matrix(matrix)
+    check_if_consistent(matrix)
 
 if __name__ == "__main__":
     tridiagonal = [[1,4,0,0,23],
